@@ -14,6 +14,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 img {
   margin-left: 10px;
 }
@@ -35,16 +36,16 @@ img {
 .first:hover {
   cursor: pointer;
 }
-.first:active {
-}
+
 .second {
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .right-trailer-box {
   border: 1px solid grey;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 5px;
   padding: 10px;
   border-radius: 10px;
 }
