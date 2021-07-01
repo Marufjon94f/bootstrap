@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center pt-3 mb-5">Movies catalog</h1>
+        <div class="box">
+            <div class="movie-wrapper d-flex justify-content-between">
+                <form class="" method="post" action="#">
+
+                    <input class="form-control mb-2" type="text" name="user_name" placeholder="ave" id="user_name" />
+                    <input class="form-control mb-2" type="number" name="user_name" placeholder="5" id="user_name" />
+
+                    <select class="form-select mb-2" aria-label="Default select example">
+                        <option selected>All</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <select class="form-select mb-2" aria-label="Default select example">
+                        <option selected>Rating (high to low)</option>
+                        <option value="1">three</option>
+                        <option value="2">two</option>
+                        <option value="3">one</option>
+                    </select>
+                    <button type="button" class="movie-button btn-primary w-100 mb-2">Search</button>
+                    <h2 class="remove-heading">Bookmarked movies</h2>
+                    <ul class="movie-list remove-list p-0">
+                        <li class="movie-item">
+                            <h4 class="title">Avenger: Infinity war</h4>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </li>
+                        <li class="movie-item">
+                            <h4 class="title">The Avengers</h4>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </li>
+                        <li class="movie-item">
+                            <h4 class="title">12 Years old slave</h4>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </li>
+                    </ul>
+            </div>
+            <div class="w-75 ms-5">
+                <h3 class="mb-4">Search results:39</h3>
+                <span class="alert alert-primary " role="alert">Use the form on the left to search for a movie</span>
+
+                <div class="trailer-box">
+                    <div class="left-trailer-box">
+                        <img class="first" src="./img/left.jpg" alt="avengers" width="400" height="300">
+                        <h4>Avengers: Infinity War</h4>
+                        <div class="calendar-box">
+                            <img class="calendar" src="./img/calendar.png" alt="calendar" width="25" height="25">
+                            <p>2018</p>
+                        </div>
+                        <div class="star-box">
+                            <img class="star" src="./img/star.png" alt="star" width="25" height="25">
+                            <span>8.7</span>
+                        </div>
+                        <div class="trailer-box">
+                            <button type="button" class="btn btn-outline-primary">watch trailer</button>
+                            <button type="button" class="middle btn btn-outline-secondary">more info</button>
+                            <button type="button" class="btn btn-outline-success">Bookmark</button>
+                        </div>
+
+                    </div>
+                    <!-- right box -->
+                    <div class="right-trailer-box">
+                        <img class="second" src="./img/right.jpg" alt="avengers" width="400" height="300">
+                        <h4>The Avengers</h4>
+                        <div class="calendar-box">
+                            <img class="calendar" src="./img/calendar.png" alt="calendar" width="25" height="25">
+                            <p>2018</p>
+                        </div>
+                        <div class="star-box">
+                            <img class="star" src="./img/star.png" alt="star" width="25" height="25">
+                            <span>8.1</span>
+                        </div>
+                        <div class="trailer-box">
+                            <button type="button" class="btn btn-outline-primary">watch trailer</button>
+                            <button type="button" class="middle btn btn-outline-secondary">more info</button>
+                            <button type="button" class="btn btn-outline-success">Bookmark</button>
+                        </div>
+                                            </div>
+                   
+                </div>
+                <ul class="button-list justify-content-center pt-5">
+                    <li><button type="button" class="button-item btn-outline-primary"><</button></li>
+                    <li><button type="button" class="button-item btn-primary">01</button></li>
+                    <li><button type="button" class="button-item btn-outline-primary">02</button></li>
+                    <li><button type="button" class="button-item btn-outline-primary">03</button></li>
+                    <li><button type="button" class="button-item btn-outline-primary">04</button></li>
+                    <li><a href="./next.html"><button type="button" class="button-item btn-outline-primary">></button></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    </form>
+</body>
+
+</html>
